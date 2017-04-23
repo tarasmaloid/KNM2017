@@ -1,0 +1,9 @@
+c:\users\vsevolod\documents\visual studio 2015\Projects\Genetic_Algorhitm_lab4\Genetic_Algorhitm_lab4\bin\Debug\Genetic_Algorhitm_lab4.exe.config
+C:\Users\Vsevolod\Documents\Visual Studio 2015\Projects\Genetic_Algorhitm_lab4\Genetic_Algorhitm_lab4\bin\Debug\Genetic_Algorhitm_lab4.exe
+C:\Users\Vsevolod\Documents\Visual Studio 2015\Projects\Genetic_Algorhitm_lab4\Genetic_Algorhitm_lab4\bin\Debug\Genetic_Algorhitm_lab4.pdb
+C:\Users\Vsevolod\Documents\Visual Studio 2015\Projects\Genetic_Algorhitm_lab4\Genetic_Algorhitm_lab4\obj\Debug\Genetic_Algorhitm_lab4.csprojResolveAssemblyReference.cache
+C:\Users\Vsevolod\Documents\Visual Studio 2015\Projects\Genetic_Algorhitm_lab4\Genetic_Algorhitm_lab4\obj\Debug\Genetic_Algorhitm_lab4.Form1.resources
+C:\Users\Vsevolod\Documents\Visual Studio 2015\Projects\Genetic_Algorhitm_lab4\Genetic_Algorhitm_lab4\obj\Debug\Genetic_Algorhitm_lab4.Properties.Resources.resources
+C:\Users\Vsevolod\Documents\Visual Studio 2015\Projects\Genetic_Algorhitm_lab4\Genetic_Algorhitm_lab4\obj\Debug\Genetic_Algorhitm_lab4.csproj.GenerateResource.Cache
+C:\Users\Vsevolod\Documents\Visual Studio 2015\Projects\Genetic_Algorhitm_lab4\Genetic_Algorhitm_lab4\obj\Debug\Genetic_Algorhitm_lab4.exe
+C:\Users\Vsevolod\Documents\Visual Studio 2015\Projects\Genetic_Algorhitm_lab4\Genetic_Algorhitm_lab4\obj\Debug\Genetic_Algorhitm_lab4.pdb
