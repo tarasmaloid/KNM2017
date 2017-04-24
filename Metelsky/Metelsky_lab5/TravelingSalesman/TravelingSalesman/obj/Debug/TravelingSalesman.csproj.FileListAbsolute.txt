@@ -1,0 +1,9 @@
+c:\users\vsevolod\documents\visual studio 2015\Projects\TravelingSalesman\TravelingSalesman\bin\Debug\TravelingSalesman.exe.config
+c:\users\vsevolod\documents\visual studio 2015\Projects\TravelingSalesman\TravelingSalesman\obj\Debug\TravelingSalesman.csprojResolveAssemblyReference.cache
+c:\users\vsevolod\documents\visual studio 2015\Projects\TravelingSalesman\TravelingSalesman\obj\Debug\TravelingSalesman.Form1.resources
+c:\users\vsevolod\documents\visual studio 2015\Projects\TravelingSalesman\TravelingSalesman\obj\Debug\TravelingSalesman.Properties.Resources.resources
+c:\users\vsevolod\documents\visual studio 2015\Projects\TravelingSalesman\TravelingSalesman\obj\Debug\TravelingSalesman.csproj.GenerateResource.Cache
+c:\users\vsevolod\documents\visual studio 2015\Projects\TravelingSalesman\TravelingSalesman\bin\Debug\TravelingSalesman.exe
+c:\users\vsevolod\documents\visual studio 2015\Projects\TravelingSalesman\TravelingSalesman\bin\Debug\TravelingSalesman.pdb
+c:\users\vsevolod\documents\visual studio 2015\Projects\TravelingSalesman\TravelingSalesman\obj\Debug\TravelingSalesman.exe
+c:\users\vsevolod\documents\visual studio 2015\Projects\TravelingSalesman\TravelingSalesman\obj\Debug\TravelingSalesman.pdb
