@@ -19,7 +19,7 @@ for i = 1:2:length(parents)
         c_bit = [p1_bit(1:3), p2_bit(4:6)];
         c(j) = bi2de(c_bit)-10;
     end
-    ret((i+1)/2,:) = c1;  
+    ret((i+1)/2,:) = c;  
 end;
 
 xoverKids = ret;

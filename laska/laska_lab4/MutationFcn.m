@@ -7,19 +7,19 @@ FitnessFcn, state, thisScore, thisPopulation )
 % thisPopulation - поточна популяція
 
 % маска мутації. змінює випадковий біт числа на протилежний
- mask = de2bi(1, 6);  
- mask = bitshift(mask, randi(6));
+ mask = zeros(1, 6); 
+ mask(randi(6)) = 1;
  
  mutant = thisPopulation(parents, :)+10;
  for i=1:1:nvars
     dm = mutant(i);
     if dm > 63
-       dm = de2bi(mutant(i));
+       dm = de2bi(dm);
        dm = dm(1:6);          %відтинаємо лишні біти
     else
-        dm = de2bi(mutant(i), 6);
+        dm = de2bi(dm, 6);
     end
-    
+
     dm = bitxor(dm, mask);
     mutant(i) = bi2de(dm)-10;
  end
