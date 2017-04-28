@@ -12,10 +12,12 @@ FitnessFcn, state, thisScore, thisPopulation )
  t = ceil(k*nvars);     % точка розриву
 
  mutant = thisPopulation(parents, :);
- v1 = mutant(1:t);
- v2 = mutant(t+1:nvars);
-
- mutationChildren = [v2, v1];
+ d = mutant(t);
+ d1 = mutant(t+1);
+ mutant(t) = d1;
+ mutant(t+1) = d;
+ 
+ mutationChildren = mutant;
  
 end
 
