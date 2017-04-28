@@ -30,4 +30,16 @@ options = gaoptimset(...
 );
 
 
-[x,fval,exitflag,output,population,scores] = ga(@optim_function, 5, options)
+[x,fval,exitflag,output,population,scores] = ga(@optim_function, 5, options);
+
+disp('Найращей потомок:'); disp(x);
+fprintf('f(x) = %d\n', fval);
+
+disp('Остання популяція:');
+for i=1:1:5
+    for j=1:1:5
+        fprintf('\t%d', population(i,j));
+    end;
+    fprintf('\t=>\t%d\n', scores(i));
+end;
+
