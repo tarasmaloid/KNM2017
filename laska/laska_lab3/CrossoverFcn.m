@@ -10,32 +10,30 @@ function [xoverKids] = CrossoverFcn( parents, options, nvars, FitnessFcn, ...
 
 ret = zeros(length(parents)/2, nvars);
 
-for i = 1:2:length(parents) 
-    p1 = thisPopulation(i, :);
-    p2 = thisPopulation(i+1, :);
+for i = 1:2:length(parents)-1
+    p1 = thisPopulation(parents(i), :);
+    p2 = thisPopulation(parents(i+1), :);
     
     % генеруємо цикл
     t = randi(nvars);     % початок циклу (індекс)
-    cycle = zeros(nvars);
+    cycle = zeros(1,nvars);
     for j = 1:1:nvars  
-        cycle(j) = p1(t);
+        cycle(1,j) = t;
         nv = p2(t);
         t = find(p1==nv);
-        if (cycle(1) == nv) 
+        if (p1(cycle(1,1)) == nv) 
             break;  % цикл замкнувся
         end;
     end;
     
     % елементи, що не попали в цикл успадковуються від іншого батька
-    c1 = p1; c2 = p2;  
+    child = p2;
     for j = 1:1:nvars
-        if (cycle(j) == 0)
-            c1(j) = p2(j);
-            c2(j) = p1(j);
+        if (cycle(1,j) ~= 0)
+            child(1,cycle(1,j)) = p1(cycle(1,j));
         end;
     end;
-    
-    ret((i+1)/2,:) = c1;  
+    ret((i+1)/2,:) = child;    
 end;
 
 xoverKids = ret;
