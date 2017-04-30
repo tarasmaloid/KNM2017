@@ -35,6 +35,3 @@ function [bitVal] = toBitArr(decVal)
     end  
     bitVal = dm;
 end
-
-
-

@@ -6,7 +6,7 @@ FitnessFcn, state, thisScore, thisPopulation )
 % thisScore - оцінки поточної популяції
 % thisPopulation - поточна популяція
 
-% маска мутації. змінює випадковий біт числа на протилежний
+% маска мутації. змінює випадковий біт на протилежний
  mask = zeros(1, 6); 
  mask(randi(6)) = 1;
  
