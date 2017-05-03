@@ -7,6 +7,7 @@ options = gaoptimset(options, 'MutationFcn', @mutationgaussian);
 %options = gaoptimset(options, 'PopInitRange', range);
 options = gaoptimset(options, 'Generations', generations);
 options = gaoptimset(options, 'PopulationSize', population_size);
+% options = gaoptimset(options, 'PlotFcns', {@gaplotbestf, @gaplotdistance});
 
 tic
 [fx, fval] = ga(func, nvars, options);
